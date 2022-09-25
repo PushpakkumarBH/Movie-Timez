@@ -45,8 +45,7 @@
 }
 </script>
 <ol id='list'>
-  <li class="movies_list">Pushpak</li>
-  <li class="movies_list">Lakshmi</li>
-  <li class="movies_list">Meghana</li>
-  <li class="movies_list">Durgashree</li>
+  <% items.forEach(function(image) { %>
+  <li class="movies_list"><%= image.name %></li>
+  <% }) %>
 </ol>

@@ -56,6 +56,16 @@ app.get("/", function(req, res){
     });
   });
 
+app.get("/header", function(req, res){
+    imgModel.find({}, (err, items) => {
+        if(err){
+            console.log(err);
+        } else {
+            res.render('header', {items:items});
+        }
+    });
+});
+
 app.get('/signin',function(req,res){
     res.render('signin');
 });
