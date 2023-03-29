@@ -41,7 +41,7 @@ THEATRE
 
 **Deployment: local,Heroku**
 
-Heroku deployed link: [https://movie-timez.azurewebsites.net](https://movie-timez.azurewebsites.net)
+Azure deployed link: [https://movie-timez.azurewebsites.net](https://movie-timez.azurewebsites.net)
 
 localhost: [http://localhost:3000](http://localhost:3000/)
  FIles changed till now
